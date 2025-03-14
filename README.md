@@ -21,17 +21,17 @@ The Clinical AI Advisor leverages advanced AI techniques to process and analyze 
 
 ## Features
 
-- **Information Retrieval**: Utilizes RAG to access and retrieve pertinent medical information from extensive datasets.
-- **Contextual Insights**: Employs LLMs to generate precise and contextually relevant responses based on retrieved data.
-- **Decision Support**: Enhances clinical decision-making processes by providing AI-driven recommendations.
-- **Scalability**: Designed to integrate seamlessly with various healthcare platforms and adapt to diverse clinical scenarios.
+* **Clinical Query Processing:** Handles and processes clinical questions.
+* **Retrieval-Augmented Generation (RAG):** Integrates external knowledge retrieval with LLM responses.
+* **Large Language Model (LLM) Integration:** Utilizes LLMs for generating informed responses.
+* **User Interface:** Provides a web-based interface for easy interaction.
 
 ## Technologies Used
 
 - **Retrieval-Augmented Generation (RAG)**: Combines retrieval and generation mechanisms for efficient information processing.
-- **Large Language Models (LLMs)**: Advanced models like GPT-3 or BERT for natural language understanding and generation.
+- **Large Language Models (LLMs)**: Advanced models like Mistral AI for natural language understanding and generation.
 - **TensorFlow and PyTorch**: Frameworks used for implementing and training AI models.
-- **Medical Data Sources and APIs**: Integration with authoritative medical databases and APIs for data retrieval.
+- **Medical Data Sources**: Integration with authoritative medical databases for data retrieval.
 
 ## Installation
 
