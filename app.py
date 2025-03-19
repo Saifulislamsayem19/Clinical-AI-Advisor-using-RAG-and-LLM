@@ -32,7 +32,7 @@ async def get_chatbot():
 
 # Function to start Streamlit
 def start_streamlit():
-    subprocess.run(["streamlit", "run", "bot1.py"])
+    subprocess.run(["streamlit", "run", "bot.py"])
 
 # Start Streamlit in a separate thread
 thread = threading.Thread(target=start_streamlit)
