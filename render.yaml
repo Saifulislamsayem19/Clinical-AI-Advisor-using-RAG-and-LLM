@@ -10,6 +10,7 @@ services:
     plan: free
     regions:
       - oregon
+    start_command: gunicorn -w 4 -b 0.0.0.0:8000 app:app
 
   - name: streamlit-service
     type: web
@@ -22,3 +23,4 @@ services:
     plan: free
     regions:
       - oregon
+    start_command: streamlit run bot.py --server.port 8501 --server.address 0.0.0.0
