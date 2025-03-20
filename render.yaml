@@ -1,0 +1,24 @@
+services:
+  - name: fastapi-service
+    type: web
+    env: docker
+    dockerfile_path: Dockerfile.fastapi
+    build_dir: .
+    env_vars:
+      - key: PORT
+        value: "8000"
+    plan: free
+    regions:
+      - oregon
+
+  - name: streamlit-service
+    type: web
+    env: docker
+    dockerfile_path: Dockerfile.streamlit
+    build_dir: .
+    env_vars:
+      - key: PORT
+        value: "8501"
+    plan: free
+    regions:
+      - oregon
