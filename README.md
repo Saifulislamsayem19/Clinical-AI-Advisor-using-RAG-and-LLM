@@ -12,6 +12,11 @@ The **Clinical AI Advisor** is an advanced artificial intelligence system that l
 - **Interactive User Interface**: Simple and intuitive interface for seamless interaction with the AI system.
 - **Scalable**: Built with scalability in mind to handle various medical domains and use cases.
 
+## Live Application
+
+Access the deployed Clinical AI Advisor application here: 
+[https://clinical-ai-advisor.onrender.com](https://clinical-ai-advisor.onrender.com)
+
 ## Installation
 
 To install and run the Clinical AI Advisor locally, follow these steps:
@@ -67,13 +72,11 @@ You can also run the application using Docker for easier setup.
 
 ## Usage
 
-Once the application is running, you can access the Clinical AI Advisor by visiting the following URL in your browser:
+Once the application is running, you have two options for access:
 
-http://localhost:5000
-
-
-The interface allows you to ask clinical-related questions, and the AI will generate responses based on the input and the knowledge it retrieves.
-
+- **Local Access:** Visit `http://localhost:5000` in your browser.
+- **Deployed Instance:** Use the live version at `https://clinical-ai-advisor.onrender.com` to explore the interface and ask clinical-related questions. The AI will generate responses based on the input and the knowledge it retrieves.
+  
 ## Technologies Used
 
 -   **Python**: The core programming language for the project.
